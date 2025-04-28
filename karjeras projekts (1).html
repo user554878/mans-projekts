@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+
+<head>
+
+ <meta charset="UTF-8">
+<title>Karjeras projekts</title>
+
+<style>
+
+.virsrakts {
+text-align: center;
+color: #bf88b7 ;
+padding: 15px;
+border-radius: 50px;
+margin:50px auto;
+background-color: #fdd5ff;
+width: 400px;
+}
+
+ body { 
+ background-color: #ae71a6 ;
+}
+
+ p {
+ border: 2px solid #bf88b7;
+ outline: #fdd5ff solid 10px;
+ margin: 50px auto;  
+ padding: 20px;
+ text-align: center;
+ color: white
+    }
+
+
+h2 {
+  color:#bf88b7;
+  text-align: center;
+  background-color:  #fdd5ff;
+  padding: 15px;
+  border-radius: 30px;
+  width: 400px;
+  margin: 40px auto;
+}
+
+
+ .image-row {  
+ display: flex;
+ gap: 10px;
+ max-width: 100%;
+ height: auto;
+}
+.image-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ .image-block input[type="button"] {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+	color: #bf20c7;
+  }
+  
+	.profesiju-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 30px auto;
+}
+
+	.profesiju-bloks {
+  background-color: #d191c5;
+  border-radius: 15px;
+  width: 300px;
+  padding: 20px;
+  text-align: left;
+  font-family: Times New Roman;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);;
+}
+
+	h3 {
+ color: white;
+ text-align: center;
+}
+
+.prof-tabula {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #fff0fb;
+  color: #6a006a;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.prof-tabula th, .prof-tabula td {
+  border: 2px solid #bf88b7;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.prof-tabula th {
+  background-color: #d191c5;
+  color: white;
+}
+
+.prof-tabula tr:hover {
+  background-color: #f5d9ec;
+  transition: 0.3s;
+}
+
+.tooltip {
+  position: relative;
+  cursor: pointer;
+  color: #bf20c7;
+  text-decoration: underline;
+}
+
+.tooltip-image {
+  display: none;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  width: 300px;
+  border: 2px solid #bf88b7;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+
+.tooltip:hover .tooltip-image {
+  display: block;
+}
+
+.enu-diena-bloks {
+  background-color: #d191c5;
+  color: #4b004b;
+  padding: 25px;
+  border-radius: 20px;
+  margin: 40px auto;
+  width: 80%;
+  max-width: 800px;
+  font-family: 'Times New Roman';
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.enu-diena-bloks h2 {
+  color: #bf88b7;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.enu-diena-bloks p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.secinajumi-lodziņš {
+  max-width: 850px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #f1c3eb, #de9dd4, #d191c5);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+  font-family: Times New Roman
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: justify;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.secinajumi-lodziņš:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 30px rgba(0, 0, 0, 0.25);
+}
+
+.kajene {
+color: #515151;
+text-align: center;
+padding: 10px;
+margin-top: 20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="virsrakts">
+<h1>Karjeras plāns</h1>
+<h4>Veronika Norgelaite 9.a</h4>
+</div>
+
+<p>Mans projekta <b>mērķis</b> ir izpētīt savas zināšanas un izpratni par karjeras iespējām pēc 9. klases. Kāda piemērotāko ceļu un profesiju izvēlēties priekš nākotnes.</p>
+
+<br>
+<hr>
+<h2>Sevis izzināšana rezultāts</h2>
+
+
+
+<div class="image-row">
+<div class="image-block">
+<img src="Screenshot 2025-02-13 13.30.32.png" alt="Screenshot 2025-02-13 13.30.32.png" width="250">
+<form>
+<input type="button" value="Rezultatu analīze 1 testā" onclick="alert('Šajā testā es uzzināju savus 7 personību raksturojošus tipus, un tiem klāt ir norādīti procenti, kuri ataino to, cik lielā mērā katrs no tipiem atbilst manai personībai. Visvairāk man ir saistīts ar radošumu, mākslu, dizainu vai tehnoloģijām.')">
+</form>
+</div>
+<div class="image-block">
+<img src="Screenshot 2025-02-13 13.15.22.png" alt="Screenshot 2025-02-13 13.15.22.png" width="400">
+<form >
+<input type="button" value="Rezultatu analīze 2 testā" onclick="alert('Šajā testā es uzzināju jomas, kuras visvairāk saskan ar manām interesēm. Rezultāts bija - Informācijas tehnoloģijas un Mākslas, dizains, izklaides industrija.')">
+</form>
+</div>
+<div class="image-block">
+<img src="Screenshot 2025-02-06 12.57.01.png" alt="Screenshot 2025-02-06 12.57.01.png" width="400">
+<form>
+<input type="button" value="Rezultatu analīze 3 testā" onclick="alert('Šajā testā apskatot rezultātus, es uzzināju kādas prasmju grupas man ir visaugstākie un viszemākie, tas norāda uz manām stiprajām un vājajām pusēm. Man vairāk piemīt - Personīgās un sociālās prasmes.')">
+</form>
+</div>
+</div>
+
+<br>
+<hr>
+
+<h2>Profesiju atlase</h2>
+
+<div class="profesiju-row">
+  <div class="profesiju-bloks" style="background-color: #eaafe2;">
+    <h3>Grafiskais dizaineris</h3>
+    <p>Šajā profesijā ir daudz plusu. Pats svarīgākais - tā sniedz iespēju izpaust savu radošumu, radot jaunus un interesantus dizainus. Darba režīms ir elastīgs, daudzi dizaineri var strādāt attālināti. Šī profesija mūsdienās ir ļoti pieprasīta. Digitālajā laikmetā dizains ir nepieciešams gandrīz katrā nozarē - mārketingā, reklāmā, IT u.c.<br><br>
+    Mīnusi: Liela konkurence, nepieciešamība izcelties. Ienākumu plūsma var būt nestabila.</p>
+  </div>
+
+  <div class="profesiju-bloks" style="background-color:#de9dd4;">
+    <h3>Video montāžas speciālists</h3>
+    <p>Plusi: iespēja būt radošam – veidot stāstus ar attēliem, skaņu un efektiem. Video saturs ir ļoti aktuāls – vajadzīgs sociālajos tīklos, reklāmās, filmās, uzņēmumos.<br><br>
+    Mīnusi: Video montāža prasa laiku un precizitāti. Ilgs darbs pie datora var būt nogurdinošs.</p>
+  </div>
+
+  <div class="profesiju-bloks" style="background-color: #d191c5;">
+    <h3>Pavārs</h3>
+    <p>Šī profesija neatbilst testu rezultātiem, bet viņa man jau sen interesē un es gribu izspētiīt to arī.
+	<br><br>Plusi: radošums, iespēja izpaust sevi ar ēdienu, laba pieprasījuma nozare. Var strādāt restorānos, viesnīcās, kafejnīcās.<br><br>
+    Mīnusi: Fiziski smags darbs, ilgstošs laiks uz kājām, stress, ātrs darba temps.</p>
+  </div>
+</div>
+
+<hr>
+
+<h2>Vidējās profesionālās izglītības iespējas pēc 9. klases</h2>
+
+<table class="prof-tabula">
+  <tr>
+    <th>Profesija</th>
+    <th>Skola</th>
+    <th>Ilgums</th>
+    <th>Izvēles grozs</th>
+    <th>Iegūstamā kvalifikācija</th>
+  </tr>
+  <tr>
+    <td>Pavārs</td>
+ <td>
+  <span class="tooltip">
+    Rīgas Tūrisma un radošās industrijas tehnikums (RTRIT)
+    <img src="https://torensberg.lv/wp-content/uploads/2021/07/Web_Rigas_Turisma_radosas_industrijas_tehnikums-4.jpg" class="tooltip-image" alt="RTRIT">
+  </span>
+</td>
+    <td>4 gadi</td>
+    <td>3. grozs</td>
+    <td>Pavārs (profesionālā kvalifikācija + atestāts)</td>
+  </tr>
+  <tr>
+    <td>Grafiskais dizainers</td>
+    <td>
+  <span class="tooltip">
+    Rīgas Dizaina un mākslas vidusskola (RDMV)
+    <img src="https://www.rdmv.lv/images/catImage/size3/20190617100809.jpg" class="tooltip-image" alt="RDMV">
+  </span>
+</td>
+    <td>4 gadi</td>
+    <td>2. grozs</td>
+    <td>Grafikas dizaina speciālists</td>
+  </tr>
+  <tr>
+    <td>Video montāžas speciālists</td>
+	<td>
+	 <span class="tooltip">
+    Rīgas Mākslas un mediju tehnikums (RMMT)
+    <img src="https://www.rmmt.lv/wp-content/uploads/2021/10/DSF2267-HDR-916x1024.jpg" class="tooltip-image" alt="RMMT">
+  </span>
+   </td>
+    <td>4 gadi</td>
+    <td>2. grozs</td>
+    <td>Multimediju speciālists (video, animācija, dizains)</td>
+  </tr>
+</table>
+
+<p>No trijām izpētītajām izglītības iestādēm visvairāk vēlos iestāties <b>Rīgas Mākslas un mediju tehnikumā</b>, jo tā piedāvātais virziens vislabāk atbilst manām interesēm un spējām. Ja tomēr tas neizdosies, man ir arī citas iespējas, kuras jau esmu izpētījusi.</p>
+
+<hr>
+
+<div class="container">
+<h2>Ēnu diena</h2>
+
+<div class="enu-diena-bloks">
+ 
+  <p>
+   Es ēnoju pavāra profesiju, lai gūtu dziļāku priekšstatu un pārliecinātos, vai tā patiešām ir piemērota man un pelnījusi vietu starp trim manām karjeras izvēlēm. Ēnu dienā man bija iespēja iepazīt pavāra profesiju no iekšienes. Dienas sākumā iepazinos ar pavāri un virtuves personālu, kā arī devos nelielā ekskursijā pa virtuvi. Tika parādītas galvenās darba zonas un iekārtas, kā arī pastāstīts par dienas plānu. Man bija iespēja ne tikai vērot, bet arī praktiski iesaistīties – mizot un griezt dārzeņus, kārtot produktus un sagatavot darba virsmas.</p>
+  <p>Šī pieredze parādīja, ka pavāra darbs ir ne tikai radošs, bet arī ļoti atbildīgs un fiziski prasīgs, kā jau biju minējusi profesiju atlasē, tapēc tas bija gaidams. Tas prasa precizitāti, rūpību, komandas darbu un izturību. Lai gan man bija ļoti interesanti un esmu pateicīga par šo iespēju, es sapratu, ka pavāra profesija man, visticamāk, paliks kā hobijs, nevis nākotnes karjeras ceļš.</p>
+
+</div>
+</div>
+
+<hr>
+
+<h2>Secinājumi</h2>
+
+<div class="secinajumi-lodziņš">
+<p>Veidojot šo karjeras projektu, es ieguvu lialāko izpratni par sevi, savām interesēm un profesijām, kas mani saista. Lai gan es vēl neesmu pilnībā pārliecināta par savu nākotnes profesiju, šis projekts man ļoti palīdzēja. Mans mērķis bija izpētīt, ko darīt pēc 9. klases, un to es veiksmīgi paveicu. Tagad man ir skaidrāks priekšstats par virzieniem, kuros es varētu doties, un jūtos drošāk, plānojot nākamos soļus savā izglītības ceļā. 
+No trim izvēlētajām profesijām, pateicoties Ēnu dienai, es sapratu, ka pavāra profesija nav man piemērota, ka minēju iepriekš.
+Lai arī varēju izvēlēties ēnot kādu profesiju, kas man jau patīk, es apzināti izvēlējos tieši šo, lai pārliecinātos, vai tā man der, un lai nepieņemtu kļūdainu lēmumu nākotnē. 
+Šī pieredze nebija velta. Par pārējām divām profesijām, es jau sen biju pārliecināta, ka tās atbilst manām interesēm un prasmēm. Visvairāk mani piesaista video montāžas speciālista profesija, jo tā ļauj būt radošai un ir cieši saistīta ar tehnoloģijām, kas man ļoti patīk. Arī testi to apstiprināja, mana personība un intereses ir tieši šajā virzienā. Turklāt izglītības iestāde, kurā tiek apmācīti grafiskie dizaineri, ir tā, kurā es jau sen vēlējos mācīties.</p>
+</div>
+
+<br>
+
+<div class="kajene">Atsauces: https://www.w3schools.com/css/default.asp , https://testi.niid.lv/ , https://testi.ekarjera.lv/ , https://vdisain.lv/ , https://www.rtrit.lv/ , https://www.profesijupasaule.lv/ , https://www.niid.lv/</div>
+
+</body>
+
+</html>
